@@ -1,0 +1,1247 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "SythTankProject Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win32",
+				"Debug",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win32",
+				"Debug",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"Win32",
+				"Debug",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"Win32",
+				"DebugGame",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win32",
+				"Development",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win32",
+				"Development",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"Win32",
+				"Development",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"Win32",
+				"Shipping",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win32",
+				"Test",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win32",
+				"Test",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"Win32",
+				"Test",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win64",
+				"Debug",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win64",
+				"Debug",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"Win64",
+				"Debug",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win64",
+				"Development",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win64",
+				"Development",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"Win64",
+				"Development",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win64",
+				"Test",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"Win64",
+				"Test",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"Win64",
+				"Test",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"IOS",
+				"Debug",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"IOS",
+				"Debug",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"IOS",
+				"Debug",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"IOS",
+				"DebugGame",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"IOS",
+				"Development",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"IOS",
+				"Development",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"IOS",
+				"Development",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"IOS",
+				"Shipping",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"IOS",
+				"Test",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"IOS",
+				"Test",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"IOS",
+				"Test",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"HTML5",
+				"Debug",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"HTML5",
+				"DebugGame",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"HTML5",
+				"Development",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"HTML5",
+				"Development",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"HTML5",
+				"Development",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"HTML5",
+				"Shipping",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"HTML5",
+				"Test",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProject",
+				"HTML5",
+				"Test",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProject HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProject HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProject",
+				"HTML5",
+				"Test",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProjectEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProjectEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProjectEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProjectEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProjectEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProjectEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProjectEditor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProjectEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProjectEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProjectEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProjectEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProjectEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProjectEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProjectEditor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProjectEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProjectEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProjectEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"SythTankProjectEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"SythTankProjectEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		},
+		{
+			"label": "SythTankProjectEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"SythTankProjectEditor",
+				"Win64",
+				"Development",
+				"C:\\Users\\jared\\OneDrive\\Documents\\Unreal Projects\\SynthTank\\SythTankProject\\SythTankProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "C:\\Program Files\\Epic Games\\UE_4.22"
+			}
+		}
+	]
+}
